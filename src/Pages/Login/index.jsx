@@ -1,4 +1,5 @@
 import { BsCheckCircleFill } from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 const Login = () => {
 
@@ -17,12 +18,14 @@ const Login = () => {
               className="w-full outline-none py-2 px-6 bg-white/10 text-white rounded-full mt-4"
               placeholder="Password"/>
           <div className="flex items-center gap-2 mt-6">
-            <BsCheckCircleFill size="15px" color="white" />
+            <BsCheckCircleFill size="15px" color="white"/>
             <label className="text-white" htmlFor="remember-me">Recordarme</label>
           </div>
-          <button className="w-full py-2 bg-[#00ecac] font-bold rounded-full mt-4 hover:scale-105 duration-200">
-            Ingresar
-          </button>
+          <Link to="/dashboard">
+            <button className="w-full py-2 bg-[#00ecac] font-bold rounded-full mt-4 hover:scale-105 duration-200 active:scale-100">
+              Ingresar
+            </button>
+          </Link>
           <p className="text-white text-sm mt-4">
             Has olvidado tu <a className="text-[#00ecac]" href="">contraseña?</a>
           </p>
