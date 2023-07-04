@@ -19,43 +19,7 @@ const athletes = [
     edad: 23,
     imgData: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
     show_in_mercato: 0
-  },{
-    sessionID: "cccc",
-    nombre: "Sebastian Arias",
-    edad: 23,
-    imgData: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
-    show_in_mercato: 0
-  },{
-    sessionID: "cccc",
-    nombre: "Sebastian Arias",
-    edad: 23,
-    imgData: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
-    show_in_mercato: 0
-  },{
-    sessionID: "cccc",
-    nombre: "Sebastian Arias",
-    edad: 23,
-    imgData: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
-    show_in_mercato: 0
-  },{
-    sessionID: "cccc",
-    nombre: "Sebastian Arias",
-    edad: 23,
-    imgData: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
-    show_in_mercato: 0
-  },{
-    sessionID: "cccc",
-    nombre: "Sebastian Arias",
-    edad: 23,
-    imgData: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
-    show_in_mercato: 0
-  },{
-    sessionID: "cccc",
-    nombre: "Sebastian Arias",
-    edad: 23,
-    imgData: "https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg",
-    show_in_mercato: 0
-  },
+  }
 ]
 
 const Prospects = () => {
